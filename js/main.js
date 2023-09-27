@@ -4,6 +4,8 @@ const currencySelect = document.getElementById('valyutaSelect');
 const convertedPul = document.getElementById('convertedPul');
 const convertedValyuta = document.getElementById('convertedValyuta');
 
+let valyuta = document.getElementById('valyutaSelect');
+
 // Define the conversion rates
 const conversionRates = {
   1: 0.00008156606,// USD to USD
